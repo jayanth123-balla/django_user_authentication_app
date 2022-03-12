@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{%extends 'testApp/base.html'%}
+{%block body_block%}
+<div class="jumbotron">
+<div class="contanier">
+<h1><center>Welcome to Python Exam</center></h1>
+</div>
+</div>
+
+<form>
+ <label for="inventor" style="font-size:20px"><b>what developed python?</b></label><br>  
+              <input type="radio" id="inventor" name="inventor" value="Zim Den"/>Zim Den <br> 
+              <input type="radio" id="inventor" name="inventor" value="Guido van Rossum"/>Gudio Von Rossum <br>
+              <input type="radio" id="inventor" name="inventor" value="Niene Stom"/>Niene Stom <br>
+              <input type="radio" id="inventor" name="inventor" value="Wick van Rossum"/>Wick van Rossum<br/>
+
+
+<label for="file"  style="font-size:20px"><b>Which one of the following is the correct extension of the python file?</b></label><br>
+             <input type="radio" id="file" name="file" value=".py"/>.py <br> 
+             <input type="radio" id="file" name="file" value=".python"/>.python <br> 
+             <input type="radio" id="file" name="file" value=".p"/>.p<br> 
+              <input type="radio" id="file" name="file" value="None of these"/>None of these<br>
+<label for="comment"  style="font-size:20px"><b>Which is used i python to make a single line comment?</b></label><br>
+          <input type="radio" id="comment" name="comment" value="/"/>/ <br>
+          <input type="radio" id="comment" name="comment" value="//"/>// <br>
+          <input type="radio" id="comment" name="comment" value="#"/># <br>
+          <input type="radio" id="comment" name="comment" value="!"/>! <br>
+<label for="method" style="font-size:20px"><b>What is the method inside the class in python language?</b></label><br>
+          <input type="radio" id="method" name="method" value="object"/>object <br> 
+          <input type="radio" id="method" name="method" value="Function"/>Function <br> 
+          <input type="radio" id="method" name="method" value="Attribute"/>Attribute <br>
+          <input type="radio" id="method" name="method" value="Arguement"/>Arguement <br> 
+<label for="dec"  style="font-size:20px"><b>Which of the following declaration is incorrect?</b></label><br>
+          <input type="radio" id="dec" name="dec" value="_x=2"/>_x=2 <br> 
+          <input type="radio" id="dec" name="dec" value="_ x=3"/> _x=3 <br>
+          <input type="radio" id="dec" name="dec" value="_ xyz =5"/> xyz _=5 <br> 
+          <input type="radio" id="dec" name="dec" value="None of these"/>None of these<br>
+<label for="key"  style="font-size:20px"><b>Which of the following is not keyword in python?</b></label><br>
+          <input type="radio" id="key" name="key" value="val"/>val<br>
+          <input type="radio" id="key" name="key" value="raise"/>raise<br>
+          <input type="radio" id="key" name="key" value="try"/>try<br>
+          <input type="radio" id="key" name="key" value="with"/>with<br> 
+<label for="var" style="font-size:20px"><b>Which word cannot be a variable in python?</b></label><br>
+         <input type="radio" id="var" name="var" value="_val"/>_val<br>
+         <input type="radio" id="var" name="var" value="val"/>val<br>
+         <input type="radio" id="var" name="var" value="try"/>try<br>
+         <input type="radio" id="var" name="var" value="try"/>try<br>
+<label for="pow" style="font-size:20px"><b>Which is power operation in python?</b></label><br>
+         <input type="radio" id="pow" name="pow" value="a^b"/>a^b<br>
+         <input type="radio" id="pow" name="pow" value="a*b"/>a*b<br>
+         <input type="radio" id="pow" name="pow" value="a^^b"/>a^^b<br>
+         <input type="radio" id="pow" name="pow" value="a^*b"/>a^*b<br>
+<label for="bui" style="font-size:20px"><b>Which is built in function in python?</b></label><br>
+         <input type="radio" id="bui" name="bui" value="val()"/>val()<br>
+         <input type="radio" id="bui" name="bui" value="print()"/>print()<br>
+         <input type="radio" id="bui" name="bui" value="println()"/>println()<br>
+         <input type="radio" id="bui" name="bui" value="none"/>none<br>
+<label for="len" style="font-size:20px"><b>what is maximum possible length of identifier?</b></label><br>
+         <input type="radio" id="len" name="len" value="16"/>16<br>
+         <input type="radio" id="len" name="len" value="32"/>32<br>
+         <input type="radio" id="len" name="len" value="64"/>64<br>
+         <input type="radio" id="len" name="len" value="none"/>none<br>
+<input type="submit" value="submit">  
+
+</form>  
+{%endblock%}
